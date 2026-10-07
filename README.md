@@ -31,7 +31,8 @@ into a specific state, so every flow can be shown and tested on real data instea
 | New-in badge | MERIDEN roll-neck jumper | v0.2 |
 | Letter sizes versus numeric sizes | Kaldfjell shell (XS–XXL), Maison Aubelle coat (34–46) | v0.2 |
 | Entry to premium price tiers | €99 hoodie to €1,200 coat | v0.2 |
-| Low stock, sold-out size or colour, backorder, pre-order, scheduled prices, bundles, sets, options, coming soon | a named product each | next |
+| Low stock, sold-out size or colour, backorder, pre-order, scheduled prices, bundles, sets, options, variation groups, coming soon | a named product each | next |
+| Order, shipping and coupon promotions, bonus products, "spend X more" messages | a promotion each | next |
 
 Everything is fictional and generated with openly licensed models, so it is free to use commercially: in
 demos, pitches and client sandboxes, with no rights questions.
@@ -121,5 +122,8 @@ The pilot: one product per label.
 
 - **The full catalogue:** about 90 products across the five labels.
 - **Developer scenarios:** a named product for every state the storefront must handle (low stock, sold out,
-  pre-order, sale and scheduled prices, bundles, sets, options, coming soon), with resettable stock.
+  pre-order, sale and scheduled prices, bundles, sets, options, variation groups, coming soon), with resettable stock.
+- **Promotions:** the flows the SFRA demo data covers, rebuilt on Showroom products: order and shipping
+  discounts with and without a coupon, "spend X more" messages, bonus products and a choice of bonus,
+  discounts on qualifying products only, promotions that do not stack, and one for a customer group.
 - **Localisation:** copy beyond English.
