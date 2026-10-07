@@ -57,7 +57,7 @@ Each label's logo, transparent and on a white tile: [`brands/`](brands/).
 | <img src="campaigns/c4-apres-minuit.jpg" alt="Après Minuit, Maison Aubelle with Tannery No. 9" width="400"> | <img src="campaigns/c5-newsletter-off-duty.jpg" alt="The cast off duty" width="400"> |
 | **Après Minuit**: Maison Aubelle with Tannery No. 9 | **Off duty**: the newsletter image |
 
-All five campaign images are in [`campaigns/`](campaigns/); the homepage import already uses them.
+All five campaign images are in [`campaigns/`](campaigns/). The homepage import uses the first four; the newsletter image is meant for the footer.
 
 ## Use it
 
