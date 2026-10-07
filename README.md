@@ -31,6 +31,7 @@ into a specific state, so every flow can be shown and tested on real data instea
 | New-in badge | MERIDEN roll-neck jumper | v0.2 |
 | Letter sizes versus numeric sizes | Kaldfjell shell (XS–XXL), Maison Aubelle coat (34–46) | v0.2 |
 | Entry to premium price tiers | €99 hoodie to €1,200 coat | v0.2 |
+| Reviews: none, one, a few, some, many | bag (none), jumper (1), coat (3), shell (9), hoodie (30) | v0.2 |
 | Low stock, sold-out size or colour, backorder, pre-order, scheduled prices, bundles, sets, options, variation groups, coming soon | a named product each | next |
 | Order, shipping and coupon promotions, bonus products, "spend X more" messages | a promotion each | next |
 
@@ -70,6 +71,7 @@ and import them into a sandbox, in this order:
 | `ff-v0.2.zip` | The catalogue: products, variants, images, categories, EUR and GBP prices, stock |
 | `site-switch.zip` | Points the `RefArchGlobal` site at the FAST FORWARD catalogue, prices and stock |
 | `ff-home-v0.2.zip` | The homepage, as a Page Designer page in `RefArchSharedLibrary`, plus the label logos |
+| `ff-reviews-v0.2.zip` | Customer reviews for four of the five products, read by the FAST FORWARD reviews cartridge (optional) |
 | `ff-v0.2-retire.zip` | Only when upgrading from v0.1: removes the colours v0.2 dropped |
 | `site-rollback.zip` | Points the site back at the RefArch catalogue |
 
@@ -86,7 +88,8 @@ Then rebuild the search index and clear the site page cache in Business Manager:
 b2c job run sfcc-search-index-product-full-update -B '{"site_scope":["RefArchGlobal"]}' -w
 ```
 
-An import merges, so running it again is safe. The homepage uses the Page Designer components of the FAST
+An import merges, so running it again is safe. The reviews archive is the exception: it replaces each
+product's review file, so reviews shoppers wrote on the instance since are lost. The homepage uses the Page Designer components of the FAST
 FORWARD storefront, so that cartridge must be on the instance.
 
 ## Versions
@@ -105,6 +108,7 @@ The same five products, redesigned and re-shot, plus the content to put them in 
 | **Cast** | 8 people, a woman and a man per apparel label, plus the faceless Tannery No. 9 styling line, with the same face in every view |
 | **Brands** | A logo per label |
 | **Campaigns** | Five campaign images: the AW26 hero, the No. 9 Bag, Weather Report, Après Minuit and the newsletter |
+| **Reviews** | 43 customer reviews in a different mix per product, from none to 30, as their own import |
 | **Homepage** | A Page Designer homepage: campaign hero, category cards, label banner, new-in carousel and campaign teasers |
 
 ### v0.1 (2026-10-05)
