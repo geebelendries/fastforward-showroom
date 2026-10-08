@@ -56,8 +56,8 @@ Each label's logo, transparent and on a white tile: [`brands/`](brands/).
 | --- | --- |
 | <img src="campaigns/c2-no9-bag-workshop.jpg" alt="The No. 9 Bag, in the workshop" width="400"> | <img src="campaigns/c3-weather-report.jpg" alt="Weather Report, Half Signal and Kaldfjell" width="400"> |
 | **The No. 9 Bag**: the Tannery No. 9 drop | **Weather Report**: Half Signal × Kaldfjell |
-| <img src="campaigns/c4-apres-minuit.jpg" alt="Après Minuit, Maison Aubelle with Tannery No. 9" width="400"> | <img src="campaigns/c5-newsletter-off-duty.jpg" alt="The cast off duty" width="400"> |
-| **Après Minuit**: Maison Aubelle with Tannery No. 9 | **Off duty**: the newsletter image |
+| <img src="campaigns/c4-apres-minuit.jpg" alt="Après Minuit, Maison Aubelle with Tannery No. 9" width="400"> | <img src="campaigns/c5-newsletter-off-duty.jpg" alt="Watching the weather come in, on a breakwater" width="400"> |
+| **Après Minuit**: Maison Aubelle with Tannery No. 9 | **First to know**: the newsletter image, watching the weather come in |
 
 All five campaign images are in [`campaigns/`](campaigns/). The homepage import uses the first four; the newsletter image is meant for the footer.
 
