@@ -32,7 +32,9 @@ into a specific state, so every flow can be shown and tested on real data instea
 | Letter sizes versus numeric sizes | Kaldfjell shell (XS–XXL), Maison Aubelle coat (34–46) | v0.2 |
 | Entry to premium price tiers | €99 hoodie to €1,200 coat | v0.2 |
 | Reviews: none, one, a few, some, many | bag (none), jumper (1), coat (3), shell (9), hoodie (30) | v0.2 |
-| Low stock, sold-out size or colour, backorder, pre-order, scheduled prices, bundles, sets, options, variation groups, coming soon | a named product each | next |
+| More colours than the tile shows ("+1") | Half Signal hoodie (6 colours) | v0.2 |
+| Sold-out colour (struck-through swatch) | Half Signal hoodie in Dusty Rose | v0.2 |
+| Low stock, sold-out size, backorder, pre-order, scheduled prices, bundles, sets, options, variation groups, coming soon | a named product each | next |
 | Order, shipping and coupon promotions, bonus products, "spend X more" messages | a promotion each | next |
 
 Everything is fictional and generated with openly licensed models, so it is free to use commercially: in
@@ -101,10 +103,10 @@ The same five products, redesigned and re-shot, plus the content to put them in 
 | | |
 | --- | --- |
 | **Products** | MERIDEN roll-neck jumper · Kaldfjell 3-layer shell · Half Signal heavyweight hoodie · Maison Aubelle double-face coat · Tannery No. 9 east-west bag |
-| **Catalogue** | 5 masters, 81 colour × size variants, 17 categories in menu order, EUR and GBP list and sale prices, stock |
+| **Catalogue** | 5 masters, 99 colour × size variants, 17 categories in menu order, EUR and GBP list and sale prices, stock |
 | **Design** | Each label has its own style (signature details, palette, what it never does) and the products follow the Fall/Winter 2026 and Spring/Summer 2027 trends |
-| **Colourways** | 3 per product, 15 in all; five colours of v0.1 were replaced by stronger ones |
-| **Photography** | New product photos, 20 on-model views, 41 recolours and 15 swatches, at the storefront's tile ratio (325 : 462) so tiles show the whole frame |
+| **Colourways** | 3 per product and 6 on the hoodie, 18 in all; five colours of v0.1 were replaced by stronger ones |
+| **Photography** | New product photos, 20 on-model views, 53 recolours and 18 swatches, at the storefront's tile ratio (325 : 462) so tiles show the whole frame |
 | **Cast** | 8 people, a woman and a man per apparel label, plus the faceless Tannery No. 9 styling line, with the same face in every view |
 | **Brands** | A logo per label |
 | **Campaigns** | Five campaign images: the AW26 hero, the No. 9 Bag, Weather Report, Après Minuit and the newsletter |
