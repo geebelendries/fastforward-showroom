@@ -94,11 +94,11 @@ and import them into a sandbox, in this order:
 | Archive | What it does |
 | --- | --- |
 | `ff-v0.2.zip` | The catalogue: products, variants, images, categories, EUR and GBP prices, stock, plus the four promotions and their coupons |
-| `site-switch.zip` | Points the `RefArchGlobal` site at the FAST FORWARD catalogue, prices and stock |
+| `site-switch.zip` | Points the `RefArchGlobal` and `FastForward-Next` sites at the FAST FORWARD catalogue, prices and stock |
 | `ff-home-v0.2.zip` | The homepage, as a Page Designer page in `RefArchSharedLibrary`, plus the label logos |
 | `ff-reviews-v0.2.zip` | Customer reviews in a different mix per product, read by the FAST FORWARD reviews cartridge (optional) |
 | `ff-v0.2-retire.zip` | Only when upgrading from v0.1: removes the colours v0.2 dropped |
-| `site-rollback.zip` | Points the site back at the RefArch catalogue |
+| `site-rollback.zip` | Points `RefArchGlobal` back at the RefArch catalogue |
 
 Import through **Business Manager → Administration → Site Development → Site Import & Export**, or with the
 [B2C CLI](https://github.com/SalesforceCommerceCloud/b2c-developer-tooling):
@@ -137,6 +137,7 @@ scenarios, and the content to put them in a finished store.
 | **Campaigns** | Five campaign images: the AW26 hero, the No. 9 Bag, Weather Report, Après Minuit and the newsletter |
 | **Reviews** | 104 customer reviews in a different mix per product, from none to 30, as their own import |
 | **Homepage** | A Page Designer homepage: campaign hero, category cards, label banner, new-in carousel and campaign teasers |
+| **Languages** | English, Dutch, French and German: descriptions, colours, categories, filters and option labels. Product, label and collection names stay as written; the `nl`, `fr` and `de` values serve `nl_NL`, `nl_BE`, `fr_FR`, `fr_BE` and `de_DE` through locale fallback |
 
 ### v0.1 (2026-10-05)
 
@@ -156,4 +157,5 @@ The pilot: one product per label.
 - **More promotions:** the rest of the flows the SFRA demo data covers: shipping discounts with and without a
   coupon, "spend X more" messages, a choice of bonus, discounts on qualifying products only, promotions that do
   not stack, and one for a customer group.
-- **Localisation:** copy beyond English.
+- **Localisation:** composition, care, origin and sustainability in Dutch, French and German (those attributes are
+  English-only until they are made localizable), and the promotions' callouts.
